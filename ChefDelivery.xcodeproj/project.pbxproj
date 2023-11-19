@@ -16,6 +16,8 @@
 		AC6010772ADF3116002EA6BA /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6010762ADF3116002EA6BA /* OrderTypeView.swift */; };
 		AC7320E92AD6CE7400D96CFB /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7320E82AD6CE7400D96CFB /* OrderType.swift */; };
 		AC7320EB2AD6CED800D96CFB /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7320EA2AD6CED800D96CFB /* DataSourceMock.swift */; };
+		ACBA172B2B0A9170006D9706 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA172A2B0A9170006D9706 /* CarouselItemView.swift */; };
+		ACBA172D2B0A91B0006D9706 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA172C2B0A91B0006D9706 /* CarouselTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		AC6010762ADF3116002EA6BA /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 		AC7320E82AD6CE7400D96CFB /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
 		AC7320EA2AD6CED800D96CFB /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		ACBA172A2B0A9170006D9706 /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
+		ACBA172C2B0A91B0006D9706 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				AC3C20312AD5DF7700F92BEE /* App */,
+				ACBA17282B0A9145006D9706 /* Views */,
 				AC7320E72AD6CE5600D96CFB /* Model */,
-				AC3C20302AD5DF6700F92BEE /* NavigationBar */,
-				AC3C20342AD5EA4D00F92BEE /* GridView */,
 				AC3C20262AD5DE2000F92BEE /* Assets.xcassets */,
 				AC3C20282AD5DE2000F92BEE /* Preview Content */,
 			);
@@ -112,6 +115,25 @@
 				AC7320EA2AD6CED800D96CFB /* DataSourceMock.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ACBA17282B0A9145006D9706 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC3C20302AD5DF6700F92BEE /* NavigationBar */,
+				AC3C20342AD5EA4D00F92BEE /* GridView */,
+				ACBA17292B0A914E006D9706 /* Carousel */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACBA17292B0A914E006D9706 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				ACBA172A2B0A9170006D9706 /* CarouselItemView.swift */,
+				ACBA172C2B0A91B0006D9706 /* CarouselTabView.swift */,
+			);
+			path = Carousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,12 +207,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC7320E92AD6CE7400D96CFB /* OrderType.swift in Sources */,
+				ACBA172B2B0A9170006D9706 /* CarouselItemView.swift in Sources */,
 				AC3C20252AD5DE1F00F92BEE /* ContentView.swift in Sources */,
 				AC7320EB2AD6CED800D96CFB /* DataSourceMock.swift in Sources */,
 				AC6010772ADF3116002EA6BA /* OrderTypeView.swift in Sources */,
 				AC3C20362AD5EA8200F92BEE /* OrderTypeGridView.swift in Sources */,
 				AC3C20232AD5DE1F00F92BEE /* ChefDeliveryApp.swift in Sources */,
 				AC3C20332AD5DF9400F92BEE /* NavigationBar.swift in Sources */,
+				ACBA172D2B0A91B0006D9706 /* CarouselTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
